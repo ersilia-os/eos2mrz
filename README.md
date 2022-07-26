@@ -1,28 +1,29 @@
-# Model title
+# Alternate SMILES representation for deep learning
 ## Model identifiers
-- Slug:
-- Ersilia ID: 
-- Tags: 
+- Slug: DeepSMILES
+- Ersilia ID: eos2mrz
+- Tags: ML, representation
 
 # Model description
 Short description of the model in one or two sentences.
-- Input:
-- Output: {unit and description of output) 
-- Model type: (Regression or Classification)
-- Training set: (number of compounds and link to the training data)
-- Mode of training: (is it pretrained? that is were the checkpoints downloaded and used to train the model? or is it retrained? that is trained from scratch with an updated data)
+- Input: SMILES
+- Output: DeepSMILES string
+- Model type: N/A
+- Training set: N/A
+- Mode of training: N/A
 
 # Source code
-Cite the source publication.
-- Code: include link to the source code
-- Checkpoints: include the link to the checkpoints used if model is a pretrained model
+O'Boyle, N. & Dalke, A. DeepSMILES: An Adaptation of SMILES for Use in Machine-Learning of Chemical Structures. ChemRxiv (2018). doi:10.26434/chemrxiv.7097960.v1
+- Code: https://github.com/baoilleach/deepsmiles
+- Checkpoints: N/A
+
 
 # License
-State the licences used which are GPL v3 license used by Ersilia and the license used by the source code, if any exists. Use [this guide]() on how to license new models to be incorporated into Ersilia's model hub 
+The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "deepsmiles", licensed under an [MIT License](model/LICENSE.txt)
 
 # History 
-- State the date when the model was downloaded and incorporated into Ersilia.
-- List any essential steps/modifications to the original code
+- The model was downloaded on 7/26/2022.
+- The model was uploaded on 7/26/2022.
 
 # About us
 The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
