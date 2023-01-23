@@ -1,31 +1,40 @@
-# Alternate SMILES representation for deep learning
-## Model identifiers
-- Slug: DeepSMILES
-- Ersilia ID: eos2mrz
-- Tags: ML, representation
+# DeepSMILES, an alternate SMILES representation for deep learning
 
-# Model description
-Short description of the model in one or two sentences.
-- Input: SMILES
-- Output: DeepSMILES string
-- Model type: N/A
-- Training set: N/A
-- Mode of training: N/A
+DeepSMILES converts a SMILES string to a more accurate syntax for molecule representation, taking into account both the branches (closed parenthesis in the SMILES strings) and rings (using a single symbol at ring closure that also indicates ring size). This syntax is particularly suitable in generative models, when the output is a SMILES string. With DeepSMILES, scientists can train a network using this new syntax, generate new molecules represented as DeepSMILES and then decode them back to normal SMILES strings.
 
-# Source code
-O'Boyle, N. & Dalke, A. DeepSMILES: An Adaptation of SMILES for Use in Machine-Learning of Chemical Structures. ChemRxiv (2018). doi:10.26434/chemrxiv.7097960.v1
-- Code: https://github.com/baoilleach/deepsmiles
-- Checkpoints: N/A
+## Identifiers
 
+* EOS model ID: `eos2mrz`
+* Slug: `deepsmiles`
 
-# License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "deepsmiles", licensed under an [MIT License](model/LICENSE.txt)
+## Characteristics
 
-# History 
-- The model was downloaded on 7/26/2022.
-- The model was uploaded on 7/26/2022.
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Generative`
+* Output: `Compound`
+* Output Type: `String`
+* Output Shape: `Single`
+* Interpretation: String representing a DeepSMILES
 
-# About us
+## References
+
+* [Publication](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c73ed6567dfe7e5fec388d/original/deep-smiles-an-adaptation-of-smiles-for-use-in-machine-learning-of-chemical-structures.pdf)
+* [Source Code](https://github.com/baoilleach/deepsmiles)
+* Ersilia contributor: [brosular](https://github.com/brosular)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c73ed6567dfe7e5fec388d/original/deep-smiles-an-adaptation-of-smiles-for-use-in-machine-learning-of-chemical-structures.pdf) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
+
+## License
+
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a MIT license.
+
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+
+## About Us
+
 The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
 
-[Help us](https://www.ersilia.io/donate) achieve our mission or [volunteer](https://www.ersilia.io/volunteer) with us!
+[Help us](https://www.ersilia.io/donate) achieve our mission!
