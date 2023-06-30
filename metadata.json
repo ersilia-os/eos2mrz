@@ -27,5 +27,11 @@
     "Publication": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c73ed6567dfe7e5fec388d/original/deep-smiles-an-adaptation-of-smiles-for-use-in-machine-learning-of-chemical-structures.pdf",
     "Source Code": "https://github.com/baoilleach/deepsmiles",
     "License": "MIT",
-    "Contributor": "brosular"
+    "Contributor": "brosular",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mrz.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2mrz",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }

@@ -23,6 +23,11 @@ DeepSMILES converts a SMILES string to a more accurate syntax for molecule repre
 * [Source Code](https://github.com/baoilleach/deepsmiles)
 * Ersilia contributor: [brosular](https://github.com/brosular)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos2mrz)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mrz.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos2mrz) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c73ed6567dfe7e5fec388d/original/deep-smiles-an-adaptation-of-smiles-for-use-in-machine-learning-of-chemical-structures.pdf) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
