@@ -11,7 +11,7 @@ DeepSMILES converts a SMILES string to a more accurate syntax for molecule repre
 
 * Input: `Compound`
 * Input Shape: `Single`
-* Task: `Generative`
+* Task: `Representation`
 * Output: `Compound`
 * Output Type: `String`
 * Output Shape: `Single`

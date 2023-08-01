@@ -10,7 +10,7 @@
     ],
     "Input Shape": "Single",
     "Task": [
-        "Generative"
+        "Representation"
     ],
     "Output": [
         "Compound"
