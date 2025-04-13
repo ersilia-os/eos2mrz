@@ -4,21 +4,18 @@
     "Status": "Ready",
     "Title": "DeepSMILES, an alternate SMILES representation for deep learning",
     "Description": "DeepSMILES converts a SMILES string to a more accurate syntax for molecule representation, taking into account both the branches (closed parenthesis in the SMILES strings) and rings (using a single symbol at ring closure that also indicates ring size). This syntax is particularly suitable in generative models, when the output is a SMILES string. With DeepSMILES, scientists can train a network using this new syntax, generate new molecules represented as DeepSMILES and then decode them back to normal SMILES strings.\n",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
+    "Input Shape": "Single",
     "Output": [
         "Compound"
     ],
@@ -29,20 +26,23 @@
         "Chemical language model",
         "Chemical notation"
     ],
-    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/60c73ed6567dfe7e5fec388d",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Preprint",
     "Publication Year": 2018,
+    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/60c73ed6567dfe7e5fec388d",
     "Source Code": "https://github.com/baoilleach/deepsmiles",
     "License": "MIT",
     "Contributor": "brosular",
-    "Incorporation Date": "2022-07-28",
+    "Incorporation Date": "2022-07-21",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mrz.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2mrz",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mrz.zip",
-    "Deployment": [
-        "Local"
     ]
 }
