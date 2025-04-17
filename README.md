@@ -2,7 +2,7 @@
 
 DeepSMILES converts a SMILES string to a more accurate syntax for molecule representation, taking into account both the branches (closed parenthesis in the SMILES strings) and rings (using a single symbol at ring closure that also indicates ring size). This syntax is particularly suitable in generative models, when the output is a SMILES string. With DeepSMILES, scientists can train a network using this new syntax, generate new molecules represented as DeepSMILES and then decode them back to normal SMILES strings.
 
-This model was incorporated on 2022-07-28.
+This model was incorporated on 2022-07-21.
 
 ## Information
 ### Identifiers
