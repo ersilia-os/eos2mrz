@@ -3,7 +3,7 @@
     "Slug": "deepsmiles",
     "Status": "Ready",
     "Title": "DeepSMILES, an alternate SMILES representation for deep learning",
-    "Description": "DeepSMILES converts a SMILES string to a more accurate syntax for molecule representation, taking into account both the branches (closed parenthesis in the SMILES strings) and rings (using a single symbol at ring closure that also indicates ring size). This syntax is particularly suitable in generative models, when the output is a SMILES string. With DeepSMILES, scientists can train a network using this new syntax, generate new molecules represented as DeepSMILES and then decode them back to normal SMILES strings.\n",
+    "Description": "DeepSMILES converts a SMILES string to a more accurate syntax for molecule representation, taking into account both the branches (closed parenthesis in the SMILES strings) and rings (using a single symbol at ring closure that also indicates ring size). This syntax is particularly suitable in generative models, when the output is a SMILES string. With DeepSMILES, scientists can train a network using this new syntax, generate new molecules represented as DeepSMILES and then decode them back to normal SMILES strings.",
     "Deployment": [
         "Local"
     ],
