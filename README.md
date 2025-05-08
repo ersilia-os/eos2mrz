@@ -41,8 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `234`
-- **Image Size (Mb):** `213.27`
+- **Image Size (Mb):** `213.06`
 
+**Computational Performance (seconds):**
+- 10 inputs: `28.74`
+- 100 inputs: `18.42`
+- 10000 inputs: `174.28`
 
 ### References
 - **Source Code**: [https://github.com/baoilleach/deepsmiles](https://github.com/baoilleach/deepsmiles)
