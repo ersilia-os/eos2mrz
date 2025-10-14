@@ -4,6 +4,7 @@ DeepSMILES converts a SMILES string to a more accurate syntax for molecule repre
 
 This model was incorporated on 2022-07-21.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos2mrz`
@@ -13,7 +14,7 @@ This model was incorporated on 2022-07-21.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Chemical language model`, `Chemical notation`
 
 ### Input
