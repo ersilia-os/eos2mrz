@@ -38,6 +38,8 @@
     "License": "MIT",
     "Contributor": "brosular",
     "Incorporation Date": "2022-07-21",
+    "Last Packaging Date": "2025-10-14",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mrz.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2mrz",
     "Docker Architecture": [
@@ -46,12 +48,12 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 317.0,
-    "Image Size": 213.06,
-    "Computational Performance 1": 28.74,
-    "Computational Performance 2": 18.39,
-    "Computational Performance 3": 18.42,
-    "Computational Performance 4": 46.47,
-    "Computational Performance 5": 174.28,
+    "Image Size": 295.47,
+    "Computational Performance 1": 27.25,
+    "Computational Performance 2": 16.84,
+    "Computational Performance 3": 16.9,
+    "Computational Performance 4": 17.46,
+    "Computational Performance 5": 19.32,
     "Input Shape": "Single",
     "Docker Pack Method": "FastAPI"
 }
