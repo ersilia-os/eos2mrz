@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/baoilleach/deepsmiles](https://github.com/baoilleach/deepsmiles)
-- **Publication**: [https://chemrxiv.org/engage/chemrxiv/article-details/60c73ed6567dfe7e5fec388d](https://chemrxiv.org/engage/chemrxiv/article-details/60c73ed6567dfe7e5fec388d)
+- **Publication**: [https://doi.org/10.26434/chemrxiv.7097960.v1](https://doi.org/10.26434/chemrxiv.7097960.v1)
 - **Publication Type:** `Preprint`
 - **Publication Year:** `2018`
 - **Ersilia Contributor:** [brosular](https://github.com/brosular)
