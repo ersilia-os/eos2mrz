@@ -3,7 +3,7 @@
     "Slug": "deepsmiles",
     "Status": "Ready",
     "Title": "DeepSMILES, an alternate SMILES representation for deep learning",
-    "Description": "DeepSMILES converts a SMILES string to a more accurate syntax for molecule representation, taking into account both the branches (closed parenthesis in the SMILES strings) and rings (using a single symbol at ring closure that also indicates ring size). This syntax is particularly suitable in generative models, when the output is a SMILES string. With DeepSMILES, scientists can train a network using this new syntax, generate new molecules represented as DeepSMILES and then decode them back to normal SMILES strings.",
+    "Description": "Rewrites a SMILES string as DeepSMILES, a variant designed to be easier for neural networks to generate correctly. O'Boyle and Dalke identified two recurring failure modes when models emit SMILES, unbalanced ring-closure digits and unmatched parentheses, and removed both by changing how rings and branches are encoded so that syntactically invalid output becomes far less likely. The conversion is a deterministic reformatting that preserves the molecule exactly and can be reversed.",
     "Deployment": [
         "Local"
     ],
@@ -20,7 +20,7 @@
     ],
     "Output Dimension": 1,
     "Output Consistency": "Fixed",
-    "Interpretation": "String representing a DeepSMILES",
+    "Interpretation": "DeepSMILES string encoding the input molecule in a generation-friendly syntax.",
     "Tag": [
         "Chemical language model",
         "Chemical notation"
