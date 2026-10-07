@@ -1,6 +1,6 @@
 # DeepSMILES, an alternate SMILES representation for deep learning
 
-Rewrites a SMILES string as DeepSMILES, a variant designed to be easier for neural networks to generate correctly. O'Boyle and Dalke identified two recurring failure modes when models emit SMILES, unbalanced ring-closure digits and unmatched parentheses, and removed both by changing how rings and branches are encoded so that syntactically invalid output becomes far less likely. The conversion is a deterministic reformatting that preserves the molecule exactly and can be reversed.
+Rewrites a SMILES string as DeepSMILES, a variant designed to be easier for neural networks to generate correctly. O'Boyle and Dalke identified two recurring failure modes when models emit SMILES, unbalanced ring-closure digits and unmatched parentheses, and removed both by changing how rings and branches are encoded so that syntactically invalid output becomes far less likely. Conversion is deterministic and lossless, stereochemistry included, though only the forward direction is served here and decoding back to SMILES is left to the DeepSMILES library.
 
 This model was incorporated on 2022-07-21.Last packaged on 2025-10-14.
 
